@@ -1,0 +1,45 @@
+{
+  "dir": "resources/assets/textures/Lava 05 [8K]",
+  "textures": [
+    {
+      "name": "Lava05_col_2048.png",
+      "type": "color",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "Lava05_disp_2048.png",
+      "type": "displacement",
+      "action": "combine",
+      "mode": "displacement",
+      "target_name": "displacement_build",
+      "source_channel": "R",
+      "target_channel": "R"
+    },
+    {
+      "name": "Lava05_emi_2048.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "Lava05_nrm_2048.png",
+      "type": "normal",
+      "action": "encode",
+      "target_type": "RGB",
+      "srgb": false,
+      "normal_map": true
+    },
+    {
+      "name": "Lava05_rgh_2048.png",
+      "type": "roughness",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "G"
+    }
+  ]
+}

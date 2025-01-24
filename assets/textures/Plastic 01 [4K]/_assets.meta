@@ -1,0 +1,38 @@
+{
+  "dir": "resources/assets/textures/Plastic 01 [4K]",
+  "textures": [
+    {
+      "name": "Plastic01_col_2048.png",
+      "type": "color",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "Plastic01_disp_2048.png",
+      "type": "displacement",
+      "action": "combine",
+      "mode": "displacement",
+      "target_name": "displacement_build",
+      "source_channel": "R",
+      "target_channel": "R"
+    },
+    {
+      "name": "Plastic01_nrm_2048.png",
+      "type": "normal",
+      "action": "encode",
+      "target_type": "RGB",
+      "srgb": false,
+      "normal_map": true
+    },
+    {
+      "name": "Plastic01_rgh_2048.png",
+      "type": "roughness",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "G"
+    }
+  ]
+}

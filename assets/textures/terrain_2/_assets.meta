@@ -1,0 +1,40 @@
+{
+  "dir": "resources/assets/textures/terrain_2",
+  "textures": [
+    {
+      "name": "terrain_2_height.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "terrain_2_LM.jpg",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "terrain_2_SpecLM.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "terrain_2_TN.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "terrain_2_TX.jpg",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "dir": "resources/assets/textures/PavingStones115C_1K-PNG",
+  "textures": [
+    {
+      "name": "PavingStones115C_1K_AmbientOcclusion.png",
+      "type": "occlusion",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "B"
+    },
+    {
+      "name": "PavingStones115C_1K_Color.png",
+      "type": "color",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "PavingStones115C_1K_Displacement.png",
+      "type": "displacement",
+      "action": "combine",
+      "mode": "displacement",
+      "target_name": "displacement_build",
+      "source_channel": "R",
+      "target_channel": "R"
+    },
+    {
+      "name": "PavingStones115C_1K_NormalGL.png",
+      "type": "normal",
+      "action": "encode",
+      "target_type": "RGB",
+      "srgb": false,
+      "normal_map": true
+    },
+    {
+      "name": "PavingStones115C_1K_Roughness.png",
+      "type": "roughness",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "G"
+    }
+  ]
+}

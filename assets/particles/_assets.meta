@@ -1,0 +1,40 @@
+{
+  "dir": "resources/assets/particles",
+  "textures": [
+    {
+      "name": "4_casting_spritesheet.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "7_firespin_spritesheet.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "bones_1_spritesheet.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "bones_2_spritesheet.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "bones_3_spritesheet.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    }
+  ]
+}

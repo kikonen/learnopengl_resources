@@ -1,0 +1,52 @@
+{
+  "dir": "resources/assets/Rock050_1K",
+  "textures": [
+    {
+      "name": "Rock050_1K_AmbientOcclusion.png",
+      "type": "occlusion",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "B"
+    },
+    {
+      "name": "Rock050_1K_Color.png",
+      "type": "color",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "Rock050_1K_Displacement.png",
+      "type": "displacement",
+      "action": "combine",
+      "mode": "displacement",
+      "target_name": "displacement_build",
+      "source_channel": "R",
+      "target_channel": "R"
+    },
+    {
+      "name": "Rock050_1K_NormalGL.png",
+      "type": "normal",
+      "action": "encode",
+      "target_type": "RGB",
+      "srgb": false,
+      "normal_map": true
+    },
+    {
+      "name": "Rock050_1K_Roughness.png",
+      "type": "roughness",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "G"
+    },
+    {
+      "name": "Rock050_PREVIEW.jpg",
+      "type": "preview",
+      "action": "skip"
+    }
+  ]
+}

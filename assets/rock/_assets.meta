@@ -1,15 +1,15 @@
 {
-  "dir": "resources/assets/weeping_angel",
+  "dir": "resources/assets/rock",
   "textures": [
     {
-      "name": "albedo.png",
-      "type": "color",
+      "name": "rock_512.png",
+      "type": "unknown",
       "action": "encode",
       "target_type": "RGBA",
       "srgb": true
     },
     {
-      "name": "normal.png",
+      "name": "rock_512_normal.png",
       "type": "normal",
       "action": "encode",
       "target_type": "RGB",

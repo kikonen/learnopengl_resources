@@ -1,0 +1,27 @@
+{
+  "dir": "resources/assets/sprites",
+  "textures": [
+    {
+      "name": "linden_tree_512.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "linden_tree_512_normal.png",
+      "type": "normal",
+      "action": "encode",
+      "target_type": "RGB",
+      "srgb": false,
+      "normal_map": true
+    },
+    {
+      "name": "skeleton.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    }
+  ]
+}

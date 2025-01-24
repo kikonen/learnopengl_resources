@@ -1,0 +1,110 @@
+{
+  "dir": "resources/assets/metallic-lucy-statue",
+  "textures": [
+    {
+      "name": "Back.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "Bottom.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "BrushedMetal.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "DirtyConcrete-ColorMap.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "DirtyConcrete-NormalMap.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "Front.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "Left.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "negx.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "negy.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "negz.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "posx.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "posy.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "posz.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "Right.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "Top.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    }
+  ]
+}

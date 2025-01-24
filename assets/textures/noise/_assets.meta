@@ -1,0 +1,19 @@
+{
+  "dir": "resources/assets/textures/noise",
+  "textures": [
+    {
+      "name": "noise_1.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "noise_2.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    }
+  ]
+}

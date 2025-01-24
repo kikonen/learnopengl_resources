@@ -1,0 +1,26 @@
+{
+  "dir": "resources/assets/textures/emission",
+  "textures": [
+    {
+      "name": "beware_emission.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "glow_map_001_512.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "stay_alive_emission.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    }
+  ]
+}

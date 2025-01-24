@@ -1,0 +1,34 @@
+{
+  "dir": "resources/assets/textures/planets/earth",
+  "textures": [
+    {
+      "name": "2k_earth_clouds.jpg",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "2k_earth_daymap.jpg",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "2k_earth_daymap_normal.png",
+      "type": "normal",
+      "action": "encode",
+      "target_type": "RGB",
+      "srgb": false,
+      "normal_map": true
+    },
+    {
+      "name": "2k_earth_nightmap.jpg",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    }
+  ]
+}

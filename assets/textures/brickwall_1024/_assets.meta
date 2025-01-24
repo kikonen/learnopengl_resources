@@ -1,0 +1,36 @@
+{
+  "dir": "resources/assets/textures/brickwall_1024",
+  "textures": [
+    {
+      "name": "brickwall_1024.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "brickwall_1024_displacement.jpg",
+      "type": "displacement",
+      "action": "combine",
+      "mode": "displacement",
+      "target_name": "displacement_build",
+      "source_channel": "R",
+      "target_channel": "R"
+    },
+    {
+      "name": "brickwall_1024_height.jpg",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "brickwall_1024_normal.png",
+      "type": "normal",
+      "action": "encode",
+      "target_type": "RGB",
+      "srgb": false,
+      "normal_map": true
+    }
+  ]
+}

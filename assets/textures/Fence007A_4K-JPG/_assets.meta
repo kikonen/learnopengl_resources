@@ -1,0 +1,54 @@
+{
+  "dir": "resources/assets/textures/Fence007A_4K-JPG",
+  "textures": [
+    {
+      "name": "Fence007A_4K_Color_1024.jpg",
+      "type": "color",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "Fence007A_4K_Displacement_1024.jpg",
+      "type": "displacement",
+      "action": "combine",
+      "mode": "displacement",
+      "target_name": "displacement_build",
+      "source_channel": "R",
+      "target_channel": "R"
+    },
+    {
+      "name": "Fence007A_4K_Metalness_1024.jpg",
+      "type": "metalness",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "R"
+    },
+    {
+      "name": "Fence007A_4K_NormalGL_1024.jpg",
+      "type": "normal",
+      "action": "encode",
+      "target_type": "RGB",
+      "srgb": false,
+      "normal_map": true
+    },
+    {
+      "name": "Fence007A_4K_Opacity_1024.jpg",
+      "type": "opacity",
+      "action": "encode",
+      "target_type": "R",
+      "srgb": false
+    },
+    {
+      "name": "Fence007A_4K_Roughness_1024.jpg",
+      "type": "roughness",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "G"
+    }
+  ]
+}

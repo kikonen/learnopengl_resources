@@ -1,15 +1,15 @@
 {
-  "dir": "resources/assets/weeping_angel",
+  "dir": "resources/assets/textures/brick_broken_01",
   "textures": [
     {
-      "name": "albedo.png",
-      "type": "color",
+      "name": "brick_broken_01.png",
+      "type": "unknown",
       "action": "encode",
       "target_type": "RGBA",
       "srgb": true
     },
     {
-      "name": "normal.png",
+      "name": "brick_broken_01_NRM.png",
       "type": "normal",
       "action": "encode",
       "target_type": "RGB",

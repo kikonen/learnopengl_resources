@@ -1,0 +1,47 @@
+{
+  "dir": "resources/assets/textures/Planks 09 [8K]",
+  "textures": [
+    {
+      "name": "Planks09_AO_2048.png",
+      "type": "occlusion",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "B"
+    },
+    {
+      "name": "Planks09_col_2048.png",
+      "type": "color",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "Planks09_disp_2048.png",
+      "type": "displacement",
+      "action": "combine",
+      "mode": "displacement",
+      "target_name": "displacement_build",
+      "source_channel": "R",
+      "target_channel": "R"
+    },
+    {
+      "name": "Planks09_nrm_2048.png",
+      "type": "normal",
+      "action": "encode",
+      "target_type": "RGB",
+      "srgb": false,
+      "normal_map": true
+    },
+    {
+      "name": "Planks09_rgh_2048.png",
+      "type": "roughness",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "G"
+    }
+  ]
+}

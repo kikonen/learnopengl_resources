@@ -1,0 +1,12 @@
+{
+  "dir": "resources/assets/textures/flags",
+  "textures": [
+    {
+      "name": "fi.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    }
+  ]
+}

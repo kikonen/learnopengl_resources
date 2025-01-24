@@ -1,15 +1,15 @@
 {
-  "dir": "resources/assets/weeping_angel",
+  "dir": "resources/assets/decals",
   "textures": [
     {
-      "name": "albedo.png",
-      "type": "color",
+      "name": "BulletHole_Plaster.png",
+      "type": "unknown",
       "action": "encode",
       "target_type": "RGBA",
       "srgb": true
     },
     {
-      "name": "normal.png",
+      "name": "BulletHole_Plaster_normal.png",
       "type": "normal",
       "action": "encode",
       "target_type": "RGB",

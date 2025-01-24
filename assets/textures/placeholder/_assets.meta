@@ -1,0 +1,19 @@
+{
+  "dir": "resources/assets/textures/placeholder",
+  "textures": [
+    {
+      "name": "black.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "white.png",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "dir": "resources/assets/opengl_book/NasaShuttle",
+  "textures": [
+    {
+      "name": "spstob_1.jpg",
+      "type": "unknown",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    }
+  ]
+}

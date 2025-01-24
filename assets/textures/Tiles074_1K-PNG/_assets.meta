@@ -1,0 +1,43 @@
+{
+  "dir": "resources/assets/textures/Tiles074_1K-PNG",
+  "textures": [
+    {
+      "name": "Tiles074_1K_Color.png",
+      "type": "color",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "Tiles074_1K_Displacement.png",
+      "type": "displacement",
+      "action": "combine",
+      "mode": "displacement",
+      "target_name": "displacement_build",
+      "source_channel": "R",
+      "target_channel": "R"
+    },
+    {
+      "name": "Tiles074_1K_NormalGL.png",
+      "type": "normal",
+      "action": "encode",
+      "target_type": "RGB",
+      "srgb": false,
+      "normal_map": true
+    },
+    {
+      "name": "Tiles074_1K_Roughness.png",
+      "type": "roughness",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "G"
+    },
+    {
+      "name": "Tiles074_PREVIEW.jpg",
+      "type": "preview",
+      "action": "skip"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "dir": "resources/assets/textures/orig",
+  "textures": [
+    {
+      "name": "water_surface_normal.png",
+      "type": "normal",
+      "action": "encode",
+      "target_type": "RGB",
+      "srgb": false,
+      "normal_map": true
+    }
+  ]
+}

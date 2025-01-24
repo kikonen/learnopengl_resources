@@ -1,0 +1,45 @@
+{
+  "dir": "resources/assets/backpack",
+  "textures": [
+    {
+      "name": "ao.jpg",
+      "type": "occlusion",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "B"
+    },
+    {
+      "name": "diffuse.jpg",
+      "type": "color",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "normal.png",
+      "type": "normal",
+      "action": "encode",
+      "target_type": "RGB",
+      "srgb": false,
+      "normal_map": true
+    },
+    {
+      "name": "roughness.jpg",
+      "type": "roughness",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "G"
+    },
+    {
+      "name": "specular.jpg",
+      "type": "specular",
+      "action": "skip",
+      "target_type": "RGB",
+      "srgb": true
+    }
+  ]
+}

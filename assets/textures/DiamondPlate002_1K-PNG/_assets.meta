@@ -1,0 +1,47 @@
+{
+  "dir": "resources/assets/textures/DiamondPlate002_1K-PNG",
+  "textures": [
+    {
+      "name": "DiamondPlate002_1K_Color.png",
+      "type": "color",
+      "action": "encode",
+      "target_type": "RGBA",
+      "srgb": true
+    },
+    {
+      "name": "DiamondPlate002_1K_Displacement.png",
+      "type": "displacement",
+      "action": "combine",
+      "mode": "displacement",
+      "target_name": "displacement_build",
+      "source_channel": "R",
+      "target_channel": "R"
+    },
+    {
+      "name": "DiamondPlate002_1K_Metalness.png",
+      "type": "metalness",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "R"
+    },
+    {
+      "name": "DiamondPlate002_1K_NormalGL.png",
+      "type": "normal",
+      "action": "encode",
+      "target_type": "RGB",
+      "srgb": false,
+      "normal_map": true
+    },
+    {
+      "name": "DiamondPlate002_1K_Roughness.png",
+      "type": "roughness",
+      "action": "combine",
+      "mode": "mrao",
+      "target_name": "mrao_build",
+      "source_channel": "R",
+      "target_channel": "G"
+    }
+  ]
+}
