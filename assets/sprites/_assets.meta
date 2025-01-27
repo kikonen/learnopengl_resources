@@ -2,26 +2,79 @@
   "dir": "resources/assets/sprites",
   "textures": [
     {
-      "name": "linden_tree_512.png",
-      "type": "unknown",
+      "name": "linden_tree_color_512.png",
+      "target_name": "linden_tree_color_512",
+      "group": "linden_tree",
+      "type": "color",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
-      "name": "linden_tree_512_normal.png",
+      "name": "linden_tree_normal_512.png",
+      "target_name": "linden_tree_normal_512",
+      "group": "linden_tree",
       "type": "normal",
       "action": "encode",
-      "target_type": "RGB",
-      "srgb": false,
-      "normal_map": true
+      "mode": "normal",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
-      "name": "skeleton.png",
-      "type": "unknown",
+      "name": "skeleton_color.png",
+      "target_name": "skeleton_color",
+      "group": "skeleton",
+      "type": "color",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
+    },
+    {
+      "name": "Skeleton_VH_color.PNG",
+      "target_name": "Skeleton_VH_color",
+      "group": "Skeleton_VH",
+      "type": "color",
+      "action": "encode",
+      "mode": "copy",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
+    },
+    {
+      "name": "Skeleton_VH_normal.PNG",
+      "target_name": "Skeleton_VH_normal",
+      "group": "Skeleton_VH",
+      "type": "normal",
+      "action": "encode",
+      "mode": "normal",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     }
   ]
 }

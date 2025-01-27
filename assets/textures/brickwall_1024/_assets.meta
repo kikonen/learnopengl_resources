@@ -3,34 +3,63 @@
   "textures": [
     {
       "name": "brickwall_1024.png",
+      "target_name": "brickwall_1024",
+      "group": "brickwall",
       "type": "unknown",
-      "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "action": "copy",
+      "mode": "copy",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "brickwall_1024_displacement.jpg",
+      "target_name": "brickwall_1024_displacement",
+      "group": "brickwall_1024",
       "type": "displacement",
       "action": "combine",
       "mode": "displacement",
-      "target_name": "displacement_build",
+      "detected_channels": "RGB",
       "source_channel": "R",
-      "target_channel": "R"
+      "target_channel": "R",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "brickwall_1024_height.jpg",
+      "target_name": "brickwall_1024_height",
+      "group": "brickwall_1024",
       "type": "unknown",
-      "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "action": "copy",
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "brickwall_1024_normal.png",
+      "target_name": "brickwall_1024_normal",
+      "group": "brickwall_1024",
       "type": "normal",
       "action": "encode",
-      "target_type": "RGB",
-      "srgb": false,
-      "normal_map": true
+      "mode": "normal",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     }
   ]
 }

@@ -3,18 +3,33 @@
   "textures": [
     {
       "name": "brick_broken_01.png",
+      "target_name": "brick_broken_01",
+      "group": "brick_broken",
       "type": "unknown",
-      "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "action": "copy",
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "brick_broken_01_NRM.png",
+      "target_name": "brick_broken_01_NRM",
+      "group": "brick_broken",
       "type": "normal",
       "action": "encode",
-      "target_type": "RGB",
-      "srgb": false,
-      "normal_map": true
+      "mode": "normal",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     }
   ]
 }

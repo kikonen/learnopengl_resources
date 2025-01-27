@@ -3,18 +3,33 @@
   "textures": [
     {
       "name": "BulletHole_Plaster.png",
+      "target_name": "BulletHole_Plaster",
+      "group": "BulletHole",
       "type": "unknown",
-      "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "action": "copy",
+      "mode": "copy",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "BulletHole_Plaster_normal.png",
+      "target_name": "BulletHole_Plaster_normal",
+      "group": "BulletHole",
       "type": "normal",
       "action": "encode",
-      "target_type": "RGB",
-      "srgb": false,
-      "normal_map": true
+      "mode": "normal",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     }
   ]
 }

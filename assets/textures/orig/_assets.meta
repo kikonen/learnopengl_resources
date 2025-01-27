@@ -2,12 +2,34 @@
   "dir": "resources/assets/textures/orig",
   "textures": [
     {
+      "name": "Grass Dark_VH.PNG",
+      "target_name": "Grass Dark_VH",
+      "group": "Grass Dark",
+      "type": "unknown",
+      "action": "copy",
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
+    },
+    {
       "name": "water_surface_normal.png",
+      "target_name": "water_surface_normal",
+      "group": null,
       "type": "normal",
       "action": "encode",
-      "target_type": "RGB",
-      "srgb": false,
-      "normal_map": true
+      "mode": "normal",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     }
   ]
 }

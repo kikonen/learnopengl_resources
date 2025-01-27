@@ -2,33 +2,64 @@
   "dir": "resources/assets/textures/planets/earth",
   "textures": [
     {
-      "name": "2k_earth_clouds.jpg",
-      "type": "unknown",
+      "name": "2k_earth_clouds_color.jpg",
+      "target_name": "2k_earth_clouds_color",
+      "group": "2k_earth",
+      "type": "color",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
-      "name": "2k_earth_daymap.jpg",
-      "type": "unknown",
+      "name": "2k_earth_daymap_color.jpg",
+      "target_name": "2k_earth_daymap_color",
+      "group": "2k_earth_daymap",
+      "type": "color",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "2k_earth_daymap_normal.png",
+      "target_name": "2k_earth_daymap_normal",
+      "group": "2k_earth_daymap",
       "type": "normal",
       "action": "encode",
-      "target_type": "RGB",
-      "srgb": false,
-      "normal_map": true
+      "mode": "normal",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
-      "name": "2k_earth_nightmap.jpg",
-      "type": "unknown",
+      "name": "2k_earth_nightmap_color.jpg",
+      "target_name": "2k_earth_nightmap_color",
+      "group": "2k_earth",
+      "type": "color",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     }
   ]
 }

@@ -3,38 +3,78 @@
   "textures": [
     {
       "name": "4_casting_spritesheet.png",
+      "target_name": "4_casting_spritesheet.png",
+      "group": null,
       "type": "unknown",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "7_firespin_spritesheet.png",
+      "target_name": "7_firespin_spritesheet.png",
+      "group": null,
       "type": "unknown",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "bones_1_spritesheet.png",
+      "target_name": "bones_1_spritesheet.png",
+      "group": null,
       "type": "unknown",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "bones_2_spritesheet.png",
+      "target_name": "bones_2_spritesheet.png",
+      "group": null,
       "type": "unknown",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "bones_3_spritesheet.png",
+      "target_name": "bones_3_spritesheet.png",
+      "group": null,
       "type": "unknown",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     }
   ]
 }

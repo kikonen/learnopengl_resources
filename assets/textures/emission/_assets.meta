@@ -3,24 +3,48 @@
   "textures": [
     {
       "name": "beware_emission.png",
-      "type": "unknown",
+      "target_name": "beware_emission",
+      "group": "beware",
+      "type": "emission",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "glow_map_001_512.png",
-      "type": "unknown",
+      "target_name": "glow_map_001_512",
+      "group": null,
+      "type": "emission",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "stay_alive_emission.png",
-      "type": "unknown",
+      "target_name": "stay_alive_emission",
+      "group": null,
+      "type": "emission",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     }
   ]
 }

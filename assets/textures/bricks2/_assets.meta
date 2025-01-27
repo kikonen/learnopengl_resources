@@ -3,27 +3,48 @@
   "textures": [
     {
       "name": "bricks2.jpg",
+      "target_name": "bricks2",
+      "group": null,
       "type": "unknown",
-      "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "action": "copy",
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "bricks2_disp.jpg",
+      "target_name": "bricks2_displacement",
+      "group": "bricks2",
       "type": "displacement",
       "action": "combine",
       "mode": "displacement",
-      "target_name": "displacement_build",
+      "detected_channels": "RGB",
       "source_channel": "R",
-      "target_channel": "R"
+      "target_channel": "R",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "bricks2_normal.jpg",
+      "target_name": "bricks2_normal",
+      "group": "bricks2",
       "type": "normal",
       "action": "encode",
-      "target_type": "RGB",
-      "srgb": false,
-      "normal_map": true
+      "mode": "normal",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     }
   ]
 }

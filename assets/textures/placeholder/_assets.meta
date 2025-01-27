@@ -3,17 +3,33 @@
   "textures": [
     {
       "name": "black.png",
+      "target_name": "black.png",
+      "group": null,
       "type": "unknown",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "R",
+      "source_channel": "R",
+      "target_channel": "R",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": false,
+      "manual": false
     },
     {
       "name": "white.png",
+      "target_name": "white.png",
+      "group": null,
       "type": "unknown",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "R",
+      "source_channel": "R",
+      "target_channel": "R",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": false,
+      "manual": false
     }
   ]
 }

@@ -3,25 +3,48 @@
   "textures": [
     {
       "name": "mars.png",
+      "target_name": "mars",
+      "group": null,
       "type": "unknown",
-      "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "action": "copy",
+      "mode": "copy",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "mars_normal.png",
+      "target_name": "mars_normal",
+      "group": "mars",
       "type": "normal",
       "action": "encode",
-      "target_type": "RGB",
-      "srgb": false,
-      "normal_map": true
+      "mode": "normal",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "texture_earth_surface.jpg",
+      "target_name": "texture_earth_surface",
+      "group": null,
       "type": "unknown",
-      "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "action": "copy",
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     }
   ]
 }

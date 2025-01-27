@@ -3,45 +3,78 @@
   "textures": [
     {
       "name": "Planks09_AO_2048.png",
+      "target_name": "Planks09_mrao",
+      "group": "Planks09",
       "type": "occlusion",
       "action": "combine",
       "mode": "mrao",
-      "target_name": "mrao_build",
+      "detected_channels": "R",
       "source_channel": "R",
-      "target_channel": "B"
+      "target_channel": "B",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": false,
+      "manual": false
     },
     {
       "name": "Planks09_col_2048.png",
+      "target_name": "Planks09_col_2048",
+      "group": "Planks09",
       "type": "color",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "Planks09_disp_2048.png",
+      "target_name": "Planks09_displacement",
+      "group": "Planks09",
       "type": "displacement",
       "action": "combine",
       "mode": "displacement",
-      "target_name": "displacement_build",
+      "detected_channels": "R",
       "source_channel": "R",
-      "target_channel": "R"
+      "target_channel": "R",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": false,
+      "manual": false
     },
     {
       "name": "Planks09_nrm_2048.png",
+      "target_name": "Planks09_nrm_2048",
+      "group": "Planks09",
       "type": "normal",
       "action": "encode",
-      "target_type": "RGB",
-      "srgb": false,
-      "normal_map": true
+      "mode": "normal",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "Planks09_rgh_2048.png",
+      "target_name": "Planks09_mrao",
+      "group": "Planks09",
       "type": "roughness",
       "action": "combine",
       "mode": "mrao",
-      "target_name": "mrao_build",
+      "detected_channels": "R",
       "source_channel": "R",
-      "target_channel": "G"
+      "target_channel": "G",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": false,
+      "manual": false
     }
   ]
 }

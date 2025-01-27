@@ -3,38 +3,78 @@
   "textures": [
     {
       "name": "terrain_2_height.png",
+      "target_name": "terrain_2_height",
+      "group": "terrain_2",
       "type": "unknown",
-      "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "action": "copy",
+      "mode": "copy",
+      "detected_channels": "R",
+      "source_channel": "R",
+      "target_channel": "R",
+      "source_depth": 16,
+      "target_depth": 16,
+      "srgb": false,
+      "manual": false
     },
     {
       "name": "terrain_2_LM.jpg",
+      "target_name": "terrain_2_LM",
+      "group": "terrain_2",
       "type": "unknown",
-      "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "action": "copy",
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "terrain_2_SpecLM.png",
+      "target_name": "terrain_2_SpecLM",
+      "group": "terrain_2",
       "type": "unknown",
-      "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "action": "copy",
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "terrain_2_TN.png",
-      "type": "unknown",
+      "target_name": "terrain_2_TN",
+      "group": "terrain_2",
+      "type": "normal",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "normal",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "terrain_2_TX.jpg",
-      "type": "unknown",
+      "target_name": "terrain_2_TX",
+      "group": "terrain_2",
+      "type": "color",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     }
   ]
 }

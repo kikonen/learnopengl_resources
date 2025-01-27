@@ -3,43 +3,78 @@
   "textures": [
     {
       "name": "ao.jpg",
+      "target_name": "default_mrao",
+      "group": "default",
       "type": "occlusion",
       "action": "combine",
       "mode": "mrao",
-      "target_name": "mrao_build",
+      "detected_channels": "R",
       "source_channel": "R",
-      "target_channel": "B"
+      "target_channel": "B",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": false,
+      "manual": false
     },
     {
       "name": "diffuse.jpg",
+      "target_name": "diffuse",
+      "group": null,
       "type": "color",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "normal.png",
+      "target_name": "normal",
+      "group": null,
       "type": "normal",
       "action": "encode",
-      "target_type": "RGB",
-      "srgb": false,
-      "normal_map": true
+      "mode": "normal",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "roughness.jpg",
+      "target_name": "default_mrao",
+      "group": "default",
       "type": "roughness",
       "action": "combine",
       "mode": "mrao",
-      "target_name": "mrao_build",
+      "detected_channels": "R",
       "source_channel": "R",
-      "target_channel": "G"
+      "target_channel": "G",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": false,
+      "manual": false
     },
     {
       "name": "specular.jpg",
+      "target_name": "specular",
+      "group": null,
       "type": "specular",
       "action": "skip",
-      "target_type": "RGB",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     }
   ]
 }

@@ -3,50 +3,93 @@
   "textures": [
     {
       "name": "Metal022_1K_Color.png",
+      "target_name": "Metal022_1K_Color",
+      "group": "Metal022_1K",
       "type": "color",
       "action": "encode",
-      "target_type": "RGBA",
-      "srgb": true
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "Metal022_1K_Displacement.png",
+      "target_name": "Metal022_1K_displacement",
+      "group": "Metal022_1K",
       "type": "displacement",
       "action": "combine",
       "mode": "displacement",
-      "target_name": "displacement_build",
+      "detected_channels": "R",
       "source_channel": "R",
-      "target_channel": "R"
+      "target_channel": "R",
+      "source_depth": 16,
+      "target_depth": 16,
+      "srgb": false,
+      "manual": false
     },
     {
       "name": "Metal022_1K_Metalness.png",
+      "target_name": "Metal022_1K_mrao",
+      "group": "Metal022_1K",
       "type": "metalness",
       "action": "combine",
       "mode": "mrao",
-      "target_name": "mrao_build",
+      "detected_channels": "R",
       "source_channel": "R",
-      "target_channel": "R"
+      "target_channel": "R",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": false,
+      "manual": false
     },
     {
       "name": "Metal022_1K_NormalGL.png",
+      "target_name": "Metal022_1K_NormalGL",
+      "group": "Metal022_1K",
       "type": "normal",
       "action": "encode",
-      "target_type": "RGB",
-      "srgb": false,
-      "normal_map": true
+      "mode": "normal",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 16,
+      "target_depth": 16,
+      "srgb": true,
+      "manual": false
     },
     {
       "name": "Metal022_1K_Roughness.png",
+      "target_name": "Metal022_1K_mrao",
+      "group": "Metal022_1K",
       "type": "roughness",
       "action": "combine",
       "mode": "mrao",
-      "target_name": "mrao_build",
+      "detected_channels": "R",
       "source_channel": "R",
-      "target_channel": "G"
+      "target_channel": "G",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": false,
+      "manual": false
     },
     {
       "name": "Metal022_PREVIEW.jpg",
+      "target_name": "Metal022_PREVIEW",
+      "group": "Metal022",
       "type": "preview",
-      "action": "skip"
+      "action": "skip",
+      "mode": "copy",
+      "detected_channels": "RGB",
+      "source_channel": "RGB",
+      "target_channel": "RGB",
+      "source_depth": 8,
+      "target_depth": 8,
+      "srgb": true,
+      "manual": false
     }
   ]
 }
