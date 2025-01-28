@@ -2,17 +2,18 @@
   "dir": "resources/assets/textures/brickwall_1024",
   "textures": [
     {
-      "name": "brickwall_1024.png",
-      "target_name": "brickwall_1024",
-      "group": "brickwall",
-      "type": "unknown",
-      "action": "copy",
+      "name": "brickwall_1024_color.png",
+      "target_name": "brickwall_1024_color",
+      "group": "brickwall_1024",
+      "type": "color",
+      "action": "encode",
       "mode": "copy",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
       "target_channel": "RGBA",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1024x1024",
       "srgb": true,
       "manual": false
     },
@@ -28,6 +29,7 @@
       "target_channel": "R",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1024x1024",
       "srgb": true,
       "manual": false
     },
@@ -43,6 +45,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1024x1024",
       "srgb": true,
       "manual": false
     },
@@ -58,6 +61,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1024x1024",
       "srgb": true,
       "manual": false
     }

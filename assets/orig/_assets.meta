@@ -13,6 +13,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1024x1024",
       "srgb": true,
       "manual": false
     },
@@ -28,6 +29,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1024x1024",
       "srgb": true,
       "manual": false
     },
@@ -43,6 +45,7 @@
       "target_channel": "RGBA",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "400x400",
       "srgb": true,
       "manual": false
     },
@@ -58,6 +61,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "400x400",
       "srgb": true,
       "manual": false
     },
@@ -73,6 +77,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "400x400",
       "srgb": true,
       "manual": false
     },
@@ -88,6 +93,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1000x1000",
       "srgb": true,
       "manual": false
     },
@@ -103,6 +109,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1000x1000",
       "srgb": true,
       "manual": false
     },
@@ -118,6 +125,7 @@
       "target_channel": "RGBA",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "500x500",
       "srgb": true,
       "manual": false
     },
@@ -133,6 +141,7 @@
       "target_channel": "RGBA",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "500x500",
       "srgb": true,
       "manual": false
     },
@@ -148,6 +157,7 @@
       "target_channel": "RGBA",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "700x525",
       "srgb": true,
       "manual": false
     },
@@ -163,6 +173,7 @@
       "target_channel": "RGBA",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "568x743",
       "srgb": true,
       "manual": false
     },
@@ -178,6 +189,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "568x743",
       "srgb": true,
       "manual": false
     },
@@ -193,6 +205,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1000x1000",
       "srgb": true,
       "manual": false
     },
@@ -208,6 +221,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "476x499",
       "srgb": true,
       "manual": false
     },
@@ -223,6 +237,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "476x499",
       "srgb": true,
       "manual": false
     },
@@ -238,6 +253,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "476x499",
       "srgb": true,
       "manual": false
     },
@@ -253,6 +269,7 @@
       "target_channel": "RGBA",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "496x496",
       "srgb": true,
       "manual": false
     },
@@ -268,6 +285,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1000x1000",
       "srgb": true,
       "manual": false
     },
@@ -283,6 +301,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1000x1000",
       "srgb": true,
       "manual": false
     },
@@ -298,6 +317,7 @@
       "target_channel": "RGBA",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "400x400",
       "srgb": true,
       "manual": false
     },
@@ -313,6 +333,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "400x400",
       "srgb": true,
       "manual": false
     },
@@ -328,6 +349,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "512x512",
       "srgb": true,
       "manual": false
     },
@@ -343,6 +365,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "3200x2400",
       "srgb": true,
       "manual": false
     },
@@ -358,6 +381,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "540x540",
       "srgb": true,
       "manual": false
     },
@@ -373,6 +397,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "540x540",
       "srgb": true,
       "manual": false
     },
@@ -388,6 +413,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1000x1000",
       "srgb": true,
       "manual": false
     },
@@ -403,6 +429,7 @@
       "target_channel": "RGBA",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "141x221",
       "srgb": true,
       "manual": false
     },
@@ -418,6 +445,7 @@
       "target_channel": "RGBA",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "156x232",
       "srgb": true,
       "manual": false
     },
@@ -433,6 +461,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1024x1024",
       "srgb": true,
       "manual": false
     }

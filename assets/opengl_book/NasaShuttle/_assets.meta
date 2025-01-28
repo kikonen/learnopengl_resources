@@ -3,16 +3,17 @@
   "textures": [
     {
       "name": "spstob_1.jpg",
-      "target_name": "spstob_1.jpg",
-      "group": null,
+      "target_name": "spstob_1",
+      "group": "spstob",
       "type": "unknown",
-      "action": "encode",
+      "action": "copy",
       "mode": "copy",
       "detected_channels": "RGB",
       "source_channel": "RGB",
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "2048x1024",
       "srgb": true,
       "manual": false
     }

@@ -13,6 +13,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1024x1024",
       "srgb": true,
       "manual": false
     },
@@ -28,6 +29,7 @@
       "target_channel": "R",
       "source_depth": 16,
       "target_depth": 16,
+      "source_size": "1024x1024",
       "srgb": false,
       "manual": false
     },
@@ -43,6 +45,7 @@
       "target_channel": "RGB",
       "source_depth": 16,
       "target_depth": 16,
+      "source_size": "1024x1024",
       "srgb": true,
       "manual": false
     },
@@ -58,6 +61,7 @@
       "target_channel": "G",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1024x1024",
       "srgb": false,
       "manual": false
     }

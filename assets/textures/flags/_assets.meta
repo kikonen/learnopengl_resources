@@ -3,16 +3,17 @@
   "textures": [
     {
       "name": "fi.png",
-      "target_name": "fi.png",
+      "target_name": "fi",
       "group": null,
       "type": "unknown",
-      "action": "encode",
+      "action": "copy",
       "mode": "copy",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
       "target_channel": "RGBA",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "1000x611",
       "srgb": true,
       "manual": false
     }

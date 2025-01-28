@@ -2,24 +2,25 @@
   "dir": "resources/assets/textures/brick_01",
   "textures": [
     {
-      "name": "brick_01.png",
-      "target_name": "brick_01",
-      "group": "brick",
-      "type": "unknown",
-      "action": "copy",
+      "name": "brick_01_color.png",
+      "target_name": "brick_01_color",
+      "group": "brick_01",
+      "type": "color",
+      "action": "encode",
       "mode": "copy",
       "detected_channels": "RGB",
       "source_channel": "RGB",
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "2048x2048",
       "srgb": true,
       "manual": false
     },
     {
       "name": "brick_01_NRM.png",
       "target_name": "brick_01_NRM",
-      "group": "brick",
+      "group": "brick_01",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -28,6 +29,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "2048x2048",
       "srgb": true,
       "manual": false
     }

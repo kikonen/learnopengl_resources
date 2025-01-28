@@ -13,6 +13,7 @@
       "target_channel": "RGBA",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "2048x1024",
       "srgb": true,
       "manual": false
     },
@@ -28,6 +29,7 @@
       "target_channel": "RGBA",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "512x512",
       "srgb": true,
       "manual": false
     },
@@ -43,6 +45,7 @@
       "target_channel": "RGBA",
       "source_depth": 8,
       "target_depth": 8,
+      "source_size": "2048x2048",
       "srgb": true,
       "manual": false
     }
