@@ -47,7 +47,7 @@
       "target_depth": 8,
       "source_size": "1024x1024",
       "srgb": true,
-      "manual": false
+      "manual": true
     },
     {
       "name": "brickwall_1024_normal.png",

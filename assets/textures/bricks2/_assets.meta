@@ -2,11 +2,11 @@
   "dir": "resources/assets/textures/bricks2",
   "textures": [
     {
-      "name": "bricks2.jpg",
-      "target_name": "bricks2",
-      "group": null,
-      "type": "unknown",
-      "action": "copy",
+      "name": "bricks2_color.jpg",
+      "target_name": "bricks2_color",
+      "group": "bricks2",
+      "type": "color",
+      "action": "encode",
       "mode": "copy",
       "detected_channels": "RGB",
       "source_channel": "RGB",
