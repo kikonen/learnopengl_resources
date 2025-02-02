@@ -546,11 +546,11 @@
       "manual": false
     },
     {
-      "name": "tiles_1024.png",
-      "target_name": "tiles_1024",
-      "group": "tiles",
-      "type": "unknown",
-      "action": "copy",
+      "name": "tiles_1024_color.png",
+      "target_name": "tiles_1024_color",
+      "group": null,
+      "type": "color",
+      "action": "encode",
       "mode": "copy",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
