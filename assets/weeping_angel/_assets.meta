@@ -4,7 +4,6 @@
     {
       "name": "albedo.png",
       "target_name": "albedo",
-      "group": null,
       "type": "color",
       "action": "encode",
       "mode": "copy",
@@ -20,7 +19,6 @@
     {
       "name": "normal.png",
       "target_name": "normal",
-      "group": null,
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -30,7 +28,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "2048x2048",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     }
   ]

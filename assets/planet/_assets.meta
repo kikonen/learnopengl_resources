@@ -4,10 +4,9 @@
     {
       "name": "mars.png",
       "target_name": "mars",
-      "group": null,
-      "type": "unknown",
-      "action": "copy",
-      "mode": "copy",
+      "type": "color",
+      "action": "encode",
+      "mode": "color",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
       "target_channel": "RGBA",
@@ -15,7 +14,7 @@
       "target_depth": 8,
       "source_size": "2085x1573",
       "srgb": true,
-      "manual": false
+      "manual": true
     },
     {
       "name": "mars_normal.png",
@@ -30,23 +29,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "2085x1573",
-      "srgb": true,
-      "manual": false
-    },
-    {
-      "name": "texture_earth_surface.jpg",
-      "target_name": "texture_earth_surface",
-      "group": null,
-      "type": "unknown",
-      "action": "copy",
-      "mode": "copy",
-      "detected_channels": "RGB",
-      "source_channel": "RGB",
-      "target_channel": "RGB",
-      "source_depth": 8,
-      "target_depth": 8,
-      "source_size": "1024x512",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     }
   ]

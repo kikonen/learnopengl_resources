@@ -20,7 +20,6 @@
     {
       "name": "glow_map_001_512.png",
       "target_name": "glow_map_001_512",
-      "group": null,
       "type": "emission",
       "action": "encode",
       "mode": "copy",
@@ -36,7 +35,6 @@
     {
       "name": "stay_alive_emission.png",
       "target_name": "stay_alive_emission",
-      "group": null,
       "type": "emission",
       "action": "encode",
       "mode": "copy",

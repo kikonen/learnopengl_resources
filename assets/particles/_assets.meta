@@ -4,7 +4,6 @@
     {
       "name": "4_casting_spritesheet.png",
       "target_name": "4_casting_spritesheet",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -20,7 +19,6 @@
     {
       "name": "7_firespin_spritesheet.png",
       "target_name": "7_firespin_spritesheet",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",

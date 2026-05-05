@@ -4,7 +4,6 @@
     {
       "name": "brickwall.jpg",
       "target_name": "brickwall",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -30,7 +29,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "1024x1024",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -62,7 +61,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "400x400",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -78,7 +77,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "400x400",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -110,13 +109,12 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "1000x1000",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
       "name": "container2.png",
       "target_name": "container2",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -142,7 +140,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "500x500",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -164,7 +162,6 @@
     {
       "name": "daisy.png",
       "target_name": "daisy",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -190,7 +187,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "568x743",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -212,7 +209,6 @@
     {
       "name": "kari.jpg",
       "target_name": "kari",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -254,7 +250,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "476x499",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -334,13 +330,12 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "400x400",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
       "name": "matrix.jpg",
       "target_name": "matrix",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -356,7 +351,6 @@
     {
       "name": "skybox2.jpg",
       "target_name": "skybox2",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -398,13 +392,12 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "540x540",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
       "name": "Wall_wood_cherry_HI.PNG",
       "target_name": "Wall_wood_cherry_HI",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -452,7 +445,6 @@
     {
       "name": "wood.png",
       "target_name": "wood",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",

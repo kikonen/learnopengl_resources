@@ -3,11 +3,11 @@
   "textures": [
     {
       "name": "Rock050_1K_AmbientOcclusion.png",
-      "target_name": "Rock050_1K_mrao",
+      "target_name": "Rock050_1K_mras",
       "group": "Rock050_1K",
       "type": "occlusion",
       "action": "combine",
-      "mode": "mrao",
+      "mode": "mras",
       "detected_channels": "R",
       "source_channel": "R",
       "target_channel": "B",
@@ -62,16 +62,16 @@
       "source_depth": 16,
       "target_depth": 16,
       "source_size": "1024x1024",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
       "name": "Rock050_1K_Roughness.png",
-      "target_name": "Rock050_1K_mrao",
+      "target_name": "Rock050_1K_mras",
       "group": "Rock050_1K",
       "type": "roughness",
       "action": "combine",
-      "mode": "mrao",
+      "mode": "mras",
       "detected_channels": "R",
       "source_channel": "R",
       "target_channel": "G",

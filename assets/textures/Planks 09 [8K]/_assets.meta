@@ -3,11 +3,11 @@
   "textures": [
     {
       "name": "Planks09_AO_2048.png",
-      "target_name": "Planks09_mrao",
+      "target_name": "Planks09_mras",
       "group": "Planks09",
       "type": "occlusion",
       "action": "combine",
-      "mode": "mrao",
+      "mode": "mras",
       "detected_channels": "R",
       "source_channel": "R",
       "target_channel": "B",
@@ -62,16 +62,16 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "2048x2048",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
       "name": "Planks09_rgh_2048.png",
-      "target_name": "Planks09_mrao",
+      "target_name": "Planks09_mras",
       "group": "Planks09",
       "type": "roughness",
       "action": "combine",
-      "mode": "mrao",
+      "mode": "mras",
       "detected_channels": "R",
       "source_channel": "R",
       "target_channel": "G",

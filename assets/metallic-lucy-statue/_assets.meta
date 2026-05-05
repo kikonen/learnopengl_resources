@@ -4,7 +4,6 @@
     {
       "name": "Back.png",
       "target_name": "Back",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -20,7 +19,6 @@
     {
       "name": "Bottom.png",
       "target_name": "Bottom",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -36,7 +34,6 @@
     {
       "name": "BrushedMetal.png",
       "target_name": "BrushedMetal",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -52,7 +49,6 @@
     {
       "name": "DirtyConcrete-ColorMap.png",
       "target_name": "DirtyConcrete-ColorMap",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -68,7 +64,6 @@
     {
       "name": "DirtyConcrete-NormalMap.png",
       "target_name": "DirtyConcrete-NormalMap",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -84,7 +79,6 @@
     {
       "name": "Front.png",
       "target_name": "Front",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -100,7 +94,6 @@
     {
       "name": "Left.png",
       "target_name": "Left",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -116,7 +109,6 @@
     {
       "name": "negx.png",
       "target_name": "negx",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -132,7 +124,6 @@
     {
       "name": "negy.png",
       "target_name": "negy",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -148,7 +139,6 @@
     {
       "name": "negz.png",
       "target_name": "negz",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -164,7 +154,6 @@
     {
       "name": "posx.png",
       "target_name": "posx",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -180,7 +169,6 @@
     {
       "name": "posy.png",
       "target_name": "posy",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -196,7 +184,6 @@
     {
       "name": "posz.png",
       "target_name": "posz",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -212,7 +199,6 @@
     {
       "name": "Right.png",
       "target_name": "Right",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -228,7 +214,6 @@
     {
       "name": "Top.png",
       "target_name": "Top",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",

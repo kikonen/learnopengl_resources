@@ -4,7 +4,6 @@
     {
       "name": "black.png",
       "target_name": "black",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -20,7 +19,6 @@
     {
       "name": "white.png",
       "target_name": "white",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",

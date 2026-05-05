@@ -20,7 +20,6 @@
     {
       "name": "water_surface_normal.png",
       "target_name": "water_surface_normal",
-      "group": null,
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -30,7 +29,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "400x400",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     }
   ]

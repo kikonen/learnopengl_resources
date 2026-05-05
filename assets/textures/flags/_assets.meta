@@ -4,7 +4,6 @@
     {
       "name": "fi.png",
       "target_name": "fi",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",

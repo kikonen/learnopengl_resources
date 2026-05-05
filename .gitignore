@@ -28,4 +28,9 @@ imgui.ini
 *_REMOTE_*
 
 assets/fbx/*
+assets/audio/*
+assets/fonts/*
+assets/decals/*
+assets/models/*
+assets/skybox/*
 build/**

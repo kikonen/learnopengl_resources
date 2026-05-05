@@ -1,10 +1,9 @@
 {
-  "dir": "resources/assets/opengl_book/NasaShuttle",
+  "dir": "resources/assets/textures/water_caustics",
   "textures": [
     {
-      "name": "spstob_1.jpg",
-      "target_name": "spstob_1",
-      "group": "spstob",
+      "name": "water_caustics_001.png",
+      "target_name": "water_caustics_001",
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -13,7 +12,7 @@
       "target_channel": "RGB",
       "source_depth": 8,
       "target_depth": 8,
-      "source_size": "2048x1024",
+      "source_size": "256x256",
       "srgb": true,
       "manual": false
     }

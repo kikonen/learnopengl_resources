@@ -30,7 +30,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "2048x2048",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -62,7 +62,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "512x512",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -94,7 +94,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "1024x1024",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -126,7 +126,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "512x512",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -158,7 +158,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "1024x1024",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -190,13 +190,12 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "1024x1024",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
       "name": "grass01.png",
       "target_name": "grass01",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -222,7 +221,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "2048x2048",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -254,7 +253,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "1024x1024",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -286,7 +285,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "1024x1024",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -318,7 +317,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "512x512",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -340,7 +339,6 @@
     {
       "name": "Lava Hot_VH_512.png",
       "target_name": "Lava Hot_VH_512",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -356,7 +354,6 @@
     {
       "name": "Lava_VH_1024.png",
       "target_name": "Lava_VH_1024",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -372,7 +369,6 @@
     {
       "name": "Marble Red 1_VH_1024.png",
       "target_name": "Marble Red 1_VH_1024",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -414,7 +410,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "512x512",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -452,7 +448,6 @@
     {
       "name": "noise_256.png",
       "target_name": "noise_256",
-      "group": null,
       "type": "noise",
       "action": "copy",
       "mode": "copy",
@@ -462,7 +457,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "256x256",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -510,7 +505,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "512x512",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -542,13 +537,12 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "512x512",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
       "name": "tiles_1024_color.png",
       "target_name": "tiles_1024_color",
-      "group": null,
       "type": "color",
       "action": "encode",
       "mode": "copy",
@@ -564,7 +558,6 @@
     {
       "name": "two-kingdoms_2048_normal.png",
       "target_name": "two-kingdoms_2048_normal",
-      "group": null,
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -574,13 +567,12 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "2048x2048",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
       "name": "Wall_wood_cherry_HI_1024.png",
       "target_name": "Wall_wood_cherry_HI_1024",
-      "group": null,
       "type": "unknown",
       "action": "copy",
       "mode": "copy",
@@ -596,7 +588,6 @@
     {
       "name": "water_surface_512_normal.png",
       "target_name": "water_surface_512_normal",
-      "group": null,
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -606,7 +597,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "512x512",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -670,7 +661,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "1024x1024",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     }
   ]

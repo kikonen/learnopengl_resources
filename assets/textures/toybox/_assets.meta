@@ -30,7 +30,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "256x256",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
@@ -46,7 +46,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "256x256",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     }
   ]

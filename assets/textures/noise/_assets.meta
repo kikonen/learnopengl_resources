@@ -4,7 +4,6 @@
     {
       "name": "noise_1.png",
       "target_name": "noise_1",
-      "group": null,
       "type": "noise",
       "action": "copy",
       "mode": "copy",
@@ -14,13 +13,12 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "256x256",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
       "name": "noise_2.png",
       "target_name": "noise_2",
-      "group": null,
       "type": "noise",
       "action": "copy",
       "mode": "copy",

@@ -3,11 +3,11 @@
   "textures": [
     {
       "name": "ao.jpg",
-      "target_name": "default_mrao",
+      "target_name": "default_mras",
       "group": "default",
       "type": "occlusion",
       "action": "combine",
-      "mode": "mrao",
+      "mode": "mras",
       "detected_channels": "R",
       "source_channel": "R",
       "target_channel": "B",
@@ -20,7 +20,6 @@
     {
       "name": "diffuse.jpg",
       "target_name": "diffuse",
-      "group": null,
       "type": "color",
       "action": "encode",
       "mode": "copy",
@@ -36,7 +35,6 @@
     {
       "name": "normal.png",
       "target_name": "normal",
-      "group": null,
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -46,16 +44,16 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "4096x4096",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     },
     {
       "name": "roughness.jpg",
-      "target_name": "default_mrao",
+      "target_name": "default_mras",
       "group": "default",
       "type": "roughness",
       "action": "combine",
-      "mode": "mrao",
+      "mode": "mras",
       "detected_channels": "R",
       "source_channel": "R",
       "target_channel": "G",
@@ -68,7 +66,6 @@
     {
       "name": "specular.jpg",
       "target_name": "specular",
-      "group": null,
       "type": "specular",
       "action": "skip",
       "mode": "copy",
@@ -78,7 +75,7 @@
       "source_depth": 8,
       "target_depth": 8,
       "source_size": "4096x4096",
-      "srgb": true,
+      "srgb": false,
       "manual": false
     }
   ]
