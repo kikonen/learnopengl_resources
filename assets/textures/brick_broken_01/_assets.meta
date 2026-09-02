@@ -2,12 +2,12 @@
   "dir": "resources/assets/textures/brick_broken_01",
   "textures": [
     {
-      "name": "brick_broken_01.png",
-      "target_name": "brick_broken_01",
-      "group": "brick_broken",
-      "type": "unknown",
-      "action": "copy",
-      "mode": "copy",
+      "name": "brick_broken_01_color.png",
+      "target_name": "brick_broken_01_color",
+      "group": "brick_broken_01",
+      "type": "diffuse",
+      "action": "encode",
+      "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
       "target_channel": "RGB",
@@ -20,7 +20,7 @@
     {
       "name": "brick_broken_01_NRM.png",
       "target_name": "brick_broken_01_NRM",
-      "group": "brick_broken",
+      "group": "brick_broken_01",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

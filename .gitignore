@@ -33,4 +33,7 @@ assets/fonts/*
 assets/decals/*
 assets/models/*
 assets/skybox/*
+assets/local/*
 build/**
+
+!assets/local/.gitkeep

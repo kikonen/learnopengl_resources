@@ -19,7 +19,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures/daisy_1024.png
+map_Kd textures/daisy_1024_color.png
 map_Bump -bm 1.000000 textures/daisy_1024_normal.png
 
 newmtl edges
@@ -40,7 +40,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures/kari_512.png
+map_Kd textures/kari_512_color.png
 map_Bump -bm 1.000000 textures/kari_512_normal.png
 
 newmtl wood
@@ -50,7 +50,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures/container2_512.png
+map_Kd textures/container2_512_color.png
 map_Ks textures/container2_512_specular.png
 
 newmtl wood-emission
@@ -60,5 +60,5 @@ Ks 0.500000 0.500000 0.500000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd textures/container2_512.png
-map_Ke textures/matrix_512.png
+map_Kd textures/container2_512_color.png
+map_Ke textures/matrix_512_color.png

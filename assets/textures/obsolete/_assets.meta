@@ -1,0 +1,37 @@
+{
+  "dir": "resources/assets/textures/obsolete",
+  "textures": [
+    {
+      "name": "Window_Open_lg_HI_256.PNG",
+      "target_name": "Window_Open_lg_HI_256",
+      "group": "Window",
+      "type": "unknown",
+      "action": "skip",
+      "mode": "unknown",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "source_size": "240x256",
+      "srgb": true,
+      "manual": false
+    },
+    {
+      "name": "Window_Stained_Glass_lg_HI_256.PNG",
+      "target_name": "Window_Stained_Glass_lg_HI_256",
+      "group": "Window",
+      "type": "unknown",
+      "action": "skip",
+      "mode": "unknown",
+      "detected_channels": "RGBA",
+      "source_channel": "RGBA",
+      "target_channel": "RGBA",
+      "source_depth": 8,
+      "target_depth": 8,
+      "source_size": "156x232",
+      "srgb": true,
+      "manual": false
+    }
+  ]
+}

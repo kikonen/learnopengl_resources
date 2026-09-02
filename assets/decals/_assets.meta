@@ -2,12 +2,12 @@
   "dir": "resources/assets/decals",
   "textures": [
     {
-      "name": "BulletHole_Plaster.png",
-      "target_name": "BulletHole_Plaster",
-      "group": "BulletHole",
-      "type": "unknown",
-      "action": "copy",
-      "mode": "copy",
+      "name": "BulletHole_Plaster_color.png",
+      "target_name": "BulletHole_Plaster_color",
+      "group": "BulletHole_Plaster",
+      "type": "diffuse",
+      "action": "encode",
+      "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
       "target_channel": "RGBA",
@@ -20,7 +20,7 @@
     {
       "name": "BulletHole_Plaster_normal.png",
       "target_name": "BulletHole_Plaster_normal",
-      "group": "BulletHole",
+      "group": "BulletHole_Plaster",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

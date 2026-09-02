@@ -4,9 +4,9 @@
     {
       "name": "albedo.png",
       "target_name": "albedo",
-      "type": "color",
+      "type": "diffuse",
       "action": "encode",
-      "mode": "copy",
+      "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
       "target_channel": "RGBA",

@@ -2,12 +2,12 @@
   "dir": "resources/assets/rock",
   "textures": [
     {
-      "name": "rock_512.png",
-      "target_name": "rock_512",
-      "group": "rock",
-      "type": "unknown",
-      "action": "copy",
-      "mode": "copy",
+      "name": "rock_512_color.png",
+      "target_name": "rock_512_color",
+      "group": "rock_512",
+      "type": "diffuse",
+      "action": "encode",
+      "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
       "target_channel": "RGB",
@@ -20,7 +20,7 @@
     {
       "name": "rock_512_normal.png",
       "target_name": "rock_512_normal",
-      "group": "rock",
+      "group": "rock_512",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

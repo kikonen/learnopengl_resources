@@ -2,11 +2,12 @@
   "dir": "resources/assets/textures/flags",
   "textures": [
     {
-      "name": "fi.png",
-      "target_name": "fi",
-      "type": "unknown",
-      "action": "copy",
-      "mode": "copy",
+      "name": "fi_color.png",
+      "target_name": "fi_color",
+      "group": "fi",
+      "type": "diffuse",
+      "action": "encode",
+      "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
       "target_channel": "RGBA",

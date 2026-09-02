@@ -213,13 +213,13 @@
   </library_effects>
   <library_images>
     <image id="container2_512_png" name="container2_512_png">
-      <init_from>container2_512.png</init_from>
+      <init_from>container2_512_color.png</init_from>
     </image>
     <image id="daisy_1024_png" name="daisy_1024_png">
-      <init_from>daisy_1024.png</init_from>
+      <init_from>daisy_1024_color.png</init_from>
     </image>
     <image id="kari_512_png" name="kari_512_png">
-      <init_from>kari_512.png</init_from>
+      <init_from>kari_512_color.png</init_from>
     </image>
   </library_images>
   <library_materials>
