@@ -20,9 +20,8 @@
     {
       "name": "Rock002_1K_Color.png",
       "target_name": "Rock002_1K_Color",
-      "group": "Rock002_1K",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
@@ -52,7 +51,6 @@
     {
       "name": "Rock002_1K_NormalGL.png",
       "target_name": "Rock002_1K_NormalGL",
-      "group": "Rock002_1K",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -84,7 +82,6 @@
     {
       "name": "Rock002_PREVIEW.jpg",
       "target_name": "Rock002_PREVIEW",
-      "group": "Rock002",
       "type": "preview",
       "action": "skip",
       "mode": "none",

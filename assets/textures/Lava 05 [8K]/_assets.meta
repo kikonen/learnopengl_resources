@@ -4,9 +4,8 @@
     {
       "name": "Lava05_col_2048.png",
       "target_name": "Lava05_col_2048",
-      "group": "Lava05",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -36,7 +35,6 @@
     {
       "name": "Lava05_emi_2048.png",
       "target_name": "Lava05_emi_2048",
-      "group": "Lava05",
       "type": "emission",
       "action": "encode",
       "mode": "emission",
@@ -52,7 +50,6 @@
     {
       "name": "Lava05_nrm_2048.png",
       "target_name": "Lava05_nrm_2048",
-      "group": "Lava05",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

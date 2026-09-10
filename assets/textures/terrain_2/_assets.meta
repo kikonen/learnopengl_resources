@@ -20,7 +20,6 @@
     {
       "name": "terrain_2_LM.jpg",
       "target_name": "terrain_2_LM",
-      "group": "terrain_2",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",
@@ -36,7 +35,6 @@
     {
       "name": "terrain_2_SpecLM.png",
       "target_name": "terrain_2_SpecLM",
-      "group": "terrain_2",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",
@@ -52,7 +50,6 @@
     {
       "name": "terrain_2_TN.png",
       "target_name": "terrain_2_TN",
-      "group": "terrain_2",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -68,9 +65,8 @@
     {
       "name": "terrain_2_TX.jpg",
       "target_name": "terrain_2_TX",
-      "group": "terrain_2",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",

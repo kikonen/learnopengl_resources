@@ -4,9 +4,8 @@
     {
       "name": "Metal022_1K_Color.png",
       "target_name": "Metal022_1K_Color",
-      "group": "Metal022_1K",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -52,7 +51,6 @@
     {
       "name": "Metal022_1K_NormalGL.png",
       "target_name": "Metal022_1K_NormalGL",
-      "group": "Metal022_1K",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -84,7 +82,6 @@
     {
       "name": "Metal022_PREVIEW.jpg",
       "target_name": "Metal022_PREVIEW",
-      "group": "Metal022",
       "type": "preview",
       "action": "skip",
       "mode": "none",

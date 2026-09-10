@@ -3,8 +3,8 @@
   "textures": [
     {
       "name": "ao.jpg",
-      "target_name": "default_mras",
-      "group": "default",
+      "target_name": "ao_mras",
+      "group": "ao",
       "type": "occlusion",
       "action": "combine",
       "mode": "mras",
@@ -21,7 +21,7 @@
       "name": "diffuse.jpg",
       "target_name": "diffuse",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -49,8 +49,8 @@
     },
     {
       "name": "roughness.jpg",
-      "target_name": "default_mras",
-      "group": "default",
+      "target_name": "roughness_mras",
+      "group": "roughness",
       "type": "roughness",
       "action": "combine",
       "mode": "mras",

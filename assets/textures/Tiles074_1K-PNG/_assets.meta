@@ -4,9 +4,8 @@
     {
       "name": "Tiles074_1K_Color.png",
       "target_name": "Tiles074_1K_Color",
-      "group": "Tiles074_1K",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -36,7 +35,6 @@
     {
       "name": "Tiles074_1K_NormalGL.png",
       "target_name": "Tiles074_1K_NormalGL",
-      "group": "Tiles074_1K",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -68,7 +66,6 @@
     {
       "name": "Tiles074_PREVIEW.jpg",
       "target_name": "Tiles074_PREVIEW",
-      "group": "Tiles074",
       "type": "preview",
       "action": "skip",
       "mode": "none",

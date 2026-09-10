@@ -4,9 +4,8 @@
     {
       "name": "Metal07_col_2048.png",
       "target_name": "Metal07_col_2048",
-      "group": "Metal07",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -52,7 +51,6 @@
     {
       "name": "Metal07_nrm_2048.png",
       "target_name": "Metal07_nrm_2048",
-      "group": "Metal07",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

@@ -19,7 +19,6 @@
     {
       "name": "mars_normal.png",
       "target_name": "mars_normal",
-      "group": "mars",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

@@ -4,9 +4,8 @@
     {
       "name": "rock_512_color.png",
       "target_name": "rock_512_color",
-      "group": "rock_512",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -20,7 +19,6 @@
     {
       "name": "rock_512_normal.png",
       "target_name": "rock_512_normal",
-      "group": "rock_512",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

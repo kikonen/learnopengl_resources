@@ -4,9 +4,8 @@
     {
       "name": "brick_broken_01_color.png",
       "target_name": "brick_broken_01_color",
-      "group": "brick_broken_01",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -20,7 +19,6 @@
     {
       "name": "brick_broken_01_NRM.png",
       "target_name": "brick_broken_01_NRM",
-      "group": "brick_broken_01",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

@@ -4,7 +4,6 @@
     {
       "name": "Window_Open_lg_HI_256.PNG",
       "target_name": "Window_Open_lg_HI_256",
-      "group": "Window",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",
@@ -20,7 +19,6 @@
     {
       "name": "Window_Stained_Glass_lg_HI_256.PNG",
       "target_name": "Window_Stained_Glass_lg_HI_256",
-      "group": "Window",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",

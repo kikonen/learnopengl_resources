@@ -20,9 +20,8 @@
     {
       "name": "PavingStones115C_1K_Color.png",
       "target_name": "PavingStones115C_1K_Color",
-      "group": "PavingStones115C_1K",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -52,7 +51,6 @@
     {
       "name": "PavingStones115C_1K_NormalGL.png",
       "target_name": "PavingStones115C_1K_NormalGL",
-      "group": "PavingStones115C_1K",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

@@ -4,9 +4,8 @@
     {
       "name": "2k_earth_clouds_color.jpg",
       "target_name": "2k_earth_clouds_color",
-      "group": "2k_earth",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -20,9 +19,8 @@
     {
       "name": "2k_earth_daymap_color.jpg",
       "target_name": "2k_earth_daymap_color",
-      "group": "2k_earth_daymap",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -36,7 +34,6 @@
     {
       "name": "2k_earth_daymap_normal.png",
       "target_name": "2k_earth_daymap_normal",
-      "group": "2k_earth_daymap",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -52,9 +49,8 @@
     {
       "name": "2k_earth_nightmap_color.jpg",
       "target_name": "2k_earth_nightmap_color",
-      "group": "2k_earth",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",

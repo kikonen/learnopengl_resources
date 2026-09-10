@@ -3,8 +3,8 @@
   "textures": [
     {
       "name": "mountain_1025_height.png",
-      "target_name": "default_height",
-      "group": "default",
+      "target_name": "mountain_1025_height",
+      "group": "mountain_1025",
       "type": "height",
       "action": "combine",
       "mode": "height",
@@ -20,9 +20,8 @@
     {
       "name": "terrain_1025_color.png",
       "target_name": "terrain_1025_color",
-      "group": "terrain_1025",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
@@ -52,7 +51,6 @@
     {
       "name": "terrain_1025_normal.png",
       "target_name": "terrain_1025_normal",
-      "group": "terrain_1025",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -68,9 +66,8 @@
     {
       "name": "terrain_m_1025_color.png",
       "target_name": "terrain_m_1025_color",
-      "group": "terrain",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
@@ -84,9 +81,8 @@
     {
       "name": "test_1_1024_color.jpg",
       "target_name": "test_1_1024_color",
-      "group": "test_1_1024",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -100,7 +96,6 @@
     {
       "name": "test_1_1024_normal.png",
       "target_name": "test_1_1024_normal",
-      "group": "test_1_1024",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -133,7 +128,7 @@
       "name": "two-kingdoms_2048_color.png",
       "target_name": "two-kingdoms_2048_color",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",

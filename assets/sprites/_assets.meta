@@ -4,9 +4,8 @@
     {
       "name": "linden_tree_512_color.png",
       "target_name": "linden_tree_512_color",
-      "group": "linden_tree_512",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
@@ -20,7 +19,6 @@
     {
       "name": "linden_tree_512_normal.png",
       "target_name": "linden_tree_512_normal",
-      "group": "linden_tree_512",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -36,9 +34,8 @@
     {
       "name": "skeleton_color.png",
       "target_name": "skeleton_color",
-      "group": "skeleton",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
@@ -52,9 +49,8 @@
     {
       "name": "Skeleton_VH_color.PNG",
       "target_name": "Skeleton_VH_color",
-      "group": "Skeleton_VH",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
@@ -68,7 +64,6 @@
     {
       "name": "Skeleton_VH_normal.PNG",
       "target_name": "Skeleton_VH_normal",
-      "group": "Skeleton_VH",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

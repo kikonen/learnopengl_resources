@@ -4,9 +4,8 @@
     {
       "name": "DiamondPlate002_1K_Color.png",
       "target_name": "DiamondPlate002_1K_Color",
-      "group": "DiamondPlate002_1K",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -52,7 +51,6 @@
     {
       "name": "DiamondPlate002_1K_NormalGL.png",
       "target_name": "DiamondPlate002_1K_NormalGL",
-      "group": "DiamondPlate002_1K",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

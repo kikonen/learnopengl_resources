@@ -50,7 +50,7 @@
       "name": "DirtyConcrete-ColorMap.png",
       "target_name": "DirtyConcrete-ColorMap",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",

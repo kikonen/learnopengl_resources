@@ -4,9 +4,8 @@
     {
       "name": "toy_box_diffuse.png",
       "target_name": "toy_box_diffuse",
-      "group": "toy_box",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -36,7 +35,6 @@
     {
       "name": "toy_box_normal.png",
       "target_name": "toy_box_normal",
-      "group": "toy_box",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

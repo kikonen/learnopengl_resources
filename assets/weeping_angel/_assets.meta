@@ -5,7 +5,7 @@
       "name": "albedo.png",
       "target_name": "albedo",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",

@@ -19,7 +19,6 @@
     {
       "name": "brickwall_normal.jpg",
       "target_name": "brickwall_normal",
-      "group": "brickwall",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -35,7 +34,6 @@
     {
       "name": "CD3B_Water 1_HI.PNG",
       "target_name": "CD3B_Water 1_HI",
-      "group": "CD3B_Water 1",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",
@@ -51,7 +49,6 @@
     {
       "name": "CD3B_Water 1_HI_normal.PNG",
       "target_name": "CD3B_Water 1_HI_normal",
-      "group": "CD3B_Water 1_HI",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -67,7 +64,6 @@
     {
       "name": "CD3B_Water 1_HI_normal_surface.PNG",
       "target_name": "CD3B_Water 1_HI_normal_surface",
-      "group": "CD3B_Water 1_HI",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -83,7 +79,6 @@
     {
       "name": "Cobbles_grey_HI.PNG",
       "target_name": "Cobbles_grey_HI",
-      "group": "Cobbles_grey",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",
@@ -99,7 +94,6 @@
     {
       "name": "Cobbles_grey_HI_normal.PNG",
       "target_name": "Cobbles_grey_HI_normal",
-      "group": "Cobbles_grey",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -130,7 +124,6 @@
     {
       "name": "container2_specular.png",
       "target_name": "container2_specular",
-      "group": "container2",
       "type": "specular",
       "action": "skip",
       "mode": "specular",
@@ -146,7 +139,6 @@
     {
       "name": "cubemaps_skybox.png",
       "target_name": "cubemaps_skybox",
-      "group": "cubemaps",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",
@@ -177,7 +169,6 @@
     {
       "name": "daisy_normal.png",
       "target_name": "daisy_normal",
-      "group": "daisy",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -193,7 +184,6 @@
     {
       "name": "Dirt_vh.png",
       "target_name": "Dirt_vh",
-      "group": "Dirt",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",
@@ -224,7 +214,6 @@
     {
       "name": "kari_grunge.jpg",
       "target_name": "kari_grunge",
-      "group": "kari",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",
@@ -240,7 +229,6 @@
     {
       "name": "kari_normal.png",
       "target_name": "kari_normal",
-      "group": "kari",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -256,7 +244,6 @@
     {
       "name": "Lava Hot_VH.PNG",
       "target_name": "Lava Hot_VH",
-      "group": "Lava Hot",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",
@@ -272,7 +259,6 @@
     {
       "name": "Lava_VH.PNG",
       "target_name": "Lava_VH",
-      "group": "Lava",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",
@@ -288,7 +274,6 @@
     {
       "name": "Marble Red 1_VH.PNG",
       "target_name": "Marble Red 1_VH",
-      "group": "Marble Red 1",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",
@@ -304,7 +289,6 @@
     {
       "name": "Marble White_VH.PNG",
       "target_name": "Marble White_VH",
-      "group": "Marble White",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",
@@ -320,7 +304,6 @@
     {
       "name": "Marble White_VH_normal.PNG",
       "target_name": "Marble White_VH_normal",
-      "group": "Marble White",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -366,7 +349,6 @@
     {
       "name": "texture_cube.jpg",
       "target_name": "texture_cube",
-      "group": "texture",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",
@@ -382,7 +364,6 @@
     {
       "name": "texture_cube_normal.jpg",
       "target_name": "texture_cube_normal",
-      "group": "texture",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -413,7 +394,6 @@
     {
       "name": "Window Open lg_HI.PNG",
       "target_name": "Window Open lg_HI",
-      "group": "Window Open lg",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",
@@ -429,7 +409,6 @@
     {
       "name": "Window Stained Glass lg_HI.PNG",
       "target_name": "Window Stained Glass lg_HI",
-      "group": "Window Stained Glass lg",
       "type": "unknown",
       "action": "skip",
       "mode": "unknown",

@@ -20,9 +20,8 @@
     {
       "name": "Bricks007_1K_Color.png",
       "target_name": "Bricks007_1K_Color",
-      "group": "Bricks007_1K",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -52,7 +51,6 @@
     {
       "name": "Bricks007_1K_NormalGL.png",
       "target_name": "Bricks007_1K_NormalGL",
-      "group": "Bricks007_1K",
       "type": "normal",
       "action": "encode",
       "mode": "normal",
@@ -84,7 +82,6 @@
     {
       "name": "Bricks007_PREVIEW.jpg",
       "target_name": "Bricks007_PREVIEW",
-      "group": "Bricks007",
       "type": "preview",
       "action": "skip",
       "mode": "none",

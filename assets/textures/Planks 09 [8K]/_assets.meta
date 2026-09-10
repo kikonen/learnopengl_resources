@@ -20,9 +20,8 @@
     {
       "name": "Planks09_col_2048.png",
       "target_name": "Planks09_col_2048",
-      "group": "Planks09",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -52,7 +51,6 @@
     {
       "name": "Planks09_nrm_2048.png",
       "target_name": "Planks09_nrm_2048",
-      "group": "Planks09",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

@@ -4,9 +4,8 @@
     {
       "name": "skeleton_back_color.png",
       "target_name": "skeleton_back_color",
-      "group": "skeleton",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
@@ -20,9 +19,8 @@
     {
       "name": "skeleton_front_color.png",
       "target_name": "skeleton_front_color",
-      "group": "skeleton",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
@@ -36,9 +34,8 @@
     {
       "name": "skeleton_left_color.png",
       "target_name": "skeleton_left_color",
-      "group": "skeleton",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",
@@ -52,9 +49,8 @@
     {
       "name": "skeleton_right_color.png",
       "target_name": "skeleton_right_color",
-      "group": "skeleton",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGBA",
       "source_channel": "RGBA",

@@ -4,9 +4,8 @@
     {
       "name": "Plastic01_col_2048.png",
       "target_name": "Plastic01_col_2048",
-      "group": "Plastic01",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -36,7 +35,6 @@
     {
       "name": "Plastic01_nrm_2048.png",
       "target_name": "Plastic01_nrm_2048",
-      "group": "Plastic01",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

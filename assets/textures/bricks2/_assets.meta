@@ -4,9 +4,8 @@
     {
       "name": "bricks2_color.jpg",
       "target_name": "bricks2_color",
-      "group": "bricks2",
       "type": "diffuse",
-      "action": "encode",
+      "action": "combine",
       "mode": "diffuse",
       "detected_channels": "RGB",
       "source_channel": "RGB",
@@ -36,7 +35,6 @@
     {
       "name": "bricks2_normal.jpg",
       "target_name": "bricks2_normal",
-      "group": "bricks2",
       "type": "normal",
       "action": "encode",
       "mode": "normal",

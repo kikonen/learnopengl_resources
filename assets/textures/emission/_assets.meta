@@ -4,7 +4,6 @@
     {
       "name": "beware_emission.png",
       "target_name": "beware_emission",
-      "group": "beware",
       "type": "emission",
       "action": "encode",
       "mode": "emission",
